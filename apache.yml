@@ -6,4 +6,6 @@
       shell: echo "its working"
     - name: Install packages
       shell: 'ls -lrt /Users/baskarsubbarayan'
+    - name: Create directory
+      shell: mkdir /Users/baskarsubbarayan/wow
 ...
