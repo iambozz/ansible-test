@@ -3,5 +3,5 @@
   become: True
   tasks:
     - name: Install packages
-      shell: ls /Users/baskarsubbarayan/
+      shell: 'ls -lrt /Users/baskarsubbarayan'
 ...
