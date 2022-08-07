@@ -3,5 +3,7 @@
   become: True
   tasks:
     - name: Install packages
+      shell: echo "its working"
+    - name: Install packages
       shell: 'ls -lrt /Users/baskarsubbarayan'
 ...
